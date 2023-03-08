@@ -5,11 +5,11 @@ using System.Linq;
 
 namespace BestRestaurants.Controllers
 {
-  public class Restaurants : Controller
+  public class RestaurantsController : Controller
   {
-    private readonly AnimalShelterContext _db;
+    private readonly BestRestaurantsContext _db;
     
-    public AnimalsController(AnimalShelterContext db)
+    public RestaurantsController(BestRestaurantsContext db)
     {
       _db = db;
     }
