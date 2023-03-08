@@ -11,5 +11,7 @@
   @Html.LabelFor(model => model.CuisineType)
   @Html.TextBoxFor(model => model.CuisineType)
   <br>
-  <input type="submit" class="button" value="Add new cuisine"/>
+  <input type="submit" value="Add new cuisine"/>
 }
+<p>@Html.ActionLink("Show all cuisines", "Index")</p>
+<p>@Html.ActionLink("See all restaurants", "Index", "Restaurants")</p>

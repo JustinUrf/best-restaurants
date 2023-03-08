@@ -7,6 +7,8 @@ namespace BestRestaurants.Models
   {
     public int CuisineId { get; set; }
     public string CuisineType { get; set; }
+
+    public string Restaurant {get; set;}
     // Not sure if we need a list if we have database?
     // public List<Restaurants> Restaurants { get; set; }
   }
